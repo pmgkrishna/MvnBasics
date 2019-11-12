@@ -1,0 +1,2 @@
+# MvnBasics
+mvn poc 
