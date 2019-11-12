@@ -6,7 +6,7 @@
 
   <groupId>com.pmg</groupId>
   <artifactId>MvnBasics</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>MvnBasics</name>
   <!-- FIXME change it to the project's website -->
@@ -72,4 +72,11 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/pmgkrishna/MvnBasics</url>
+    </repository>
+  </distributionManagement>
 </project>
